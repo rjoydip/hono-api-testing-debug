@@ -1,0 +1,14 @@
+{
+  "name": "hono-api-testing-debug",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@fiberplane/hono-otel": "^0.2.0-beta.1",
+    "hono": "^4.5.11"
+  },
+  "devDependencies": {
+    "@fiberplane/studio": "^0.8.0",
+    "@types/bun": "^1.1.9"
+  }
+}
